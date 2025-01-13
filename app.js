@@ -2,7 +2,7 @@ import express from "express";
 const app = express();
 const port = 3333;
 
-let count = 1;
+let count = 2;
 
 app.get("/count", (req, res) => {
   res.json({ count });
